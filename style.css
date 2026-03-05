@@ -1,0 +1,30 @@
+body{
+  margin:0;
+  padding:0;
+  
+}
+nav{
+  background-color:grey;
+  display:flex;
+  justify-content: space-between;
+ /* background: linear-gradient(black,grey) no-repeat;*/
+ /* background-image: url(https://media.architecturaldigest.com/photos/60747f8968ffd789bbaac1a3/16:9/w_2560%2Cc_limit/TheNewAbnormal.jpg);*/
+ height:50px;
+}
+nav>a{
+  margin:auto;
+  color:gold;
+  text-decoration: none;
+}
+nav>a:hover{
+  color:lavender;
+}
+nav>a:visted{color:orange;
+}
+a:active{
+  color:gold;
+}
+a:link{
+  color:gold;
+}
+.galeria{width:200px}
